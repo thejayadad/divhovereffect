@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.container{
+width: 600px;
+height: 100px;
+display: flex;
+justify-content: center;
+
+}
+
+.item{
+    transition: .3s;
+    background: lightblue;
+    height: 100px;
+    width: 60px;
+    margin: 10px;
+}
+
+.container:hover > :not(:hover){
+    opacity: .4;
+}
